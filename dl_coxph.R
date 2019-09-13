@@ -423,7 +423,7 @@ call <- function(client, method, ...) {
 
   task = list(
     "name"="CoxPH",
-    "image"="docker-registry.distributedlearning.ai/dl_coxph",
+    "image"="ananyac/dl_coxph",
     "collaboration_id"=client$get("collaboration_id"),
     "input"=input,
     "description"=""

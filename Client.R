@@ -48,7 +48,8 @@ Client <- function(host, username, password, collaboration_id, api_path='') {
     #' Authenticate with the server; sets the access and refresh tokens.
     authenticate = function() {
       # Create the URL and data for the JSON body
-      url <- paste(env$host, env$api_path, '/token', sep='')
+      url <- paste(env$host, env$api_path, '/token/user', sep='')
+      print(url)
 
       data <- list(
         username=env$username,
