@@ -58,7 +58,7 @@ A researcher then runs the analysis by: \
 
           results <- dcoxph(client, expl_vars, time_col, censor_col)
           ```
-or, you can run the [test_maastro.R](https://github.com/AnanyaCN/d_coxph/blob/master/test_maastro.R) script with correct username and password
+or, you can run the [test_maastro.R](https://github.com/AnanyaCN/d_coxph/blob/master/test_maastro.R) script with correct username, password and collaboration id. 
           
 ### 3. Run the code in Jupyter Notebook
 #### 2.1 Installing dependencies
