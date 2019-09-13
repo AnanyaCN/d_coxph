@@ -1,6 +1,6 @@
 source("Client.R")
 source("dl_coxph.R")
-client <- Client("http://137.117.138.98:5000/api", "johan01", "password", 5)
+client <- Client("http://137.117.138.98:5000/api", "example_username", "example_password", 5) #please replace with correct username and password
 client$authenticate()
 
 # Parameters used to interpret the hub's datastore
