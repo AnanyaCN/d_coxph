@@ -51,7 +51,9 @@ source("Client.R")
 source("dl_coxph.R")
 
 # Create a client object to communicate with the server.
-client <- Client(host, username, password, collaboration_id)
+#Example :  client <- Client("http://137.117.138.98:5000/api", "myname", "my_password", 2)
+
+client <- Client(host, username, password, collaboration_id)   
 client$authenticate()
 
 # Parameters used to interpret the hub's datastore
