@@ -1,6 +1,8 @@
 # dcoxph
 ## About
-The repository has been forked from the master branch. The old repository was tested against the [PyTaskManager](https://www.github.com/IKNL/pytaskmanager) distributed learning infrastructure. This repository has been tested with the new [ppDLI](https://github.com/IKNL/ppDLI) infrastructure. 
+This repository hosts the R implementation of the distributed Cox Proportional Hazards algorithm as described by Lu et al. that can be used with the Personal Health Train distributed learning infrastructure.
+
+The repository has been forked from the [master branch](https://github.com/IKNL/d_coxph). This repository has been tested with the new [ppDLI](https://github.com/IKNL/ppDLI) infrastructure. 
 
 ## How to use this algorithm?
 ### 1. Getting the code 
