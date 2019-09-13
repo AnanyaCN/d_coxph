@@ -69,7 +69,7 @@ run jupyter notebook in anaconda
 ### 3. Optional: encapsulating the distributed code in a Docker image
 The code is split into a local and a distributed part. Both parts are implemented in the same R script `dl_coxph.R`. The Docker registry at https://docker-registry.distributedlearning.ai already hosts an image with the distributed code. If you are using your own installation of the infrastructure, you/the researcher should create a Docker image that holds the distributed code (see also `build_docker.sh`) and push the image to a (private) Docker registry. This requires Docker to be installed on the machine.
 
-If you do not have access rights to https://docker-registry.distributedlearning.ai, a similar image can be extracted from [here] (https://cloud.docker.com/u/ananyac/repository/docker/ananyac/dl_coxph)
+If you do not have access rights to https://docker-registry.distributedlearning.ai, a similar image can be extracted from [here](https://cloud.docker.com/u/ananyac/repository/docker/ananyac/dl_coxph) 
 
 
 
